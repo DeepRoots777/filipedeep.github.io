@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menu Vertical */
+.menu-vertical {
+    width: 200px;
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+
+.menu-item {
+    margin: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+}
+
+.menu-item a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Conteúdo Principal */
+.conteudo {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo para todas as páginas */
+.pagina {
+    padding: 20px;
+}
+
+/* Estilo do formulário de contato */
+.form-contato {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.form-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-contato textarea {
+    height: 150px;
+}
+
+.form-contato button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-contato button:hover {
+    background-color: #2980b9;
+}
